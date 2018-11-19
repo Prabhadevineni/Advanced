@@ -1,17 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11051" started-at="2018-11-16T07:34:37Z" finished-at="2018-11-16T07:34:48Z">
+  <suite name="Default suite" duration-ms="31887" started-at="2018-11-19T09:01:17Z" finished-at="2018-11-19T09:01:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11051" started-at="2018-11-16T07:34:37Z" finished-at="2018-11-16T07:34:48Z">
-      <class name="HDFC.Cupon">
-        <test-method status="PASS" signature="cupon()[pri:0, instance:HDFC.Cupon@51565ec2]" name="cupon" duration-ms="11012" started-at="2018-11-16T07:34:37Z" finished-at="2018-11-16T07:34:48Z">
+    <test name="Default test" duration-ms="31887" started-at="2018-11-19T09:01:17Z" finished-at="2018-11-19T09:01:48Z">
+      <class name="HDFC.dataprovider">
+        <test-method status="PASS" signature="Test(java.lang.String, java.lang.String)[pri:0, instance:HDFC.dataprovider@5b275dab]" name="Test" duration-ms="14883" started-at="2018-11-19T09:01:17Z" data-provider="dp1" finished-at="2018-11-19T09:01:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prabhakar.devineni@accenture.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Novkkkkkkkkkkk]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cupon -->
-      </class> <!-- HDFC.Cupon -->
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="Test(java.lang.String, java.lang.String)[pri:0, instance:HDFC.dataprovider@5b275dab]" name="Test" duration-ms="16286" started-at="2018-11-19T09:01:32Z" data-provider="dp1" finished-at="2018-11-19T09:01:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prabhakar.devineni@accenture.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dec@2018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+      </class> <!-- HDFC.dataprovider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

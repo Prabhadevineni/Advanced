@@ -22,10 +22,6 @@ public class Cupon {
 		driver.findElementById("Email").sendKeys("prabhakar.devineni@accenture.com");
 		driver.findElementById("Password").sendKeys("Nov@2018");
 		driver.findElement(By.cssSelector("input[value='Log in")).click();
-		
-		driver.close                                                                                                                                                                                                                                                                                                                         ();
-	   // driver.findElements(By.xpath("//*[@id=\"topcartlink\"]/a/span[1]")).get(0).click();
-		
 	}
 
 }

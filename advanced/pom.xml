@@ -15,6 +15,17 @@
   		<groupId>org.testng</groupId>
   		<artifactId>testng</artifactId>
   		<version>6.14.3</version>
-  	</dependency>
-  </dependencies>
+        <scope>TEST</scope>	
+        </dependency>
+        <dependency> <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.17</version></dependency>
+         
+  <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.17</version>
+</dependency>
+</dependencies>
+
 </project>
