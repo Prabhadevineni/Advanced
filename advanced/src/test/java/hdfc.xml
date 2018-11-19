@@ -3,6 +3,16 @@
   <test name="Test">
     <classes>
       <class name="HDFC.NewTest"/>
+      
     </classes>
+    <test1>
+  <test name = "test1">
+  <parameter name = "node" value =""></parameter>
+  <class><class name ="dataprovider"></class>
+  
+  
+  </test1>
+    
   </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
