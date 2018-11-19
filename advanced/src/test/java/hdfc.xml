@@ -5,14 +5,14 @@
       <class name="HDFC.NewTest"/>
       
     </classes>
-    <test1>
-  <test name = "test1">
-  <parameter name = "node" value =""></parameter>
-  <class><class name ="dataprovider"></class>
-  
-  
-  </test1>
-    
+   
   </test> <!-- Test -->
+  
+  <test name = "test2">
+  <parameter name = "node" Value = ""></parameter>
+  <classes>
+  <class name = "dataprovider"></class>
+  </classes>
+  </test>
   
 </suite> <!-- Suite -->

@@ -50,9 +50,7 @@ public class dataprovider {
 	@BeforeClass
 	@Parameters({"node"})
 	public void hub (String nodevalue) throws MalformedURLException {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\training_b6b.01.09\\Downloads\\Selenium\\chromedriver.exe");
-		
-		DesiredCapabilities DC = new DesiredCapabilities();
+      DesiredCapabilities DC = new DesiredCapabilities().chrome();
 		DC.setPlatform(Platform.ANY);
 		driver = new RemoteWebDriver(new URL(nodevalue),DC);
 		
