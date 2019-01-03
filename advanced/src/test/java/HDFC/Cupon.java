@@ -17,6 +17,8 @@ public class Cupon {
 		driver.get("http://demowebshop.tricentis.com/");
 		driver.manage().window().maximize();
 		
+	
+		
 		driver.findElementsByXPath("/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a").get(0).click();
 		
 		driver.findElementById("Email").sendKeys("prabhakar.devineni@accenture.com");
