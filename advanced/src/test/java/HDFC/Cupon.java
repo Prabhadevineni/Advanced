@@ -24,6 +24,7 @@ public class Cupon {
 		driver.findElementById("Email").sendKeys("prabhakar.devineni@accenture.com");
 		driver.findElementById("Password").sendKeys("Nov@2018");
 		driver.findElement(By.cssSelector("input[value='Log in")).click();
+		System.out.pribtln("commithing the changes on git to try");
 	}
 
 }
